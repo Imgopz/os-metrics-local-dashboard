@@ -1,0 +1,43 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-width: 200px;
+    margin: 10px;
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .card.cpu-card {
+    background-color: #0077b6;
+    color: #fff;
+  }
+  
+  .card.memory-card {
+    background-color: #00b4d8;
+    color: #fff;
+  }

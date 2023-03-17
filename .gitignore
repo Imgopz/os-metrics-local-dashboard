@@ -1,0 +1,11 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+*.log
+*.env
+
+# Ignore any files in the `.idea` directory
+.fleet/my-dashboard/.idea/
